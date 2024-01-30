@@ -5,7 +5,7 @@ import requests
 
 from bs4 import BeautifulSoup
 
-url = "http://127.0.0.1:5500/test.html"
+url = "http://127.0.0.1:5500/Spacial.html"
 
 
 # chaineHTML = """
@@ -38,16 +38,38 @@ html = request.content
 # Utiliser beautifulSoup pour parser le HTML
 soup = BeautifulSoup(html, 'html.parser')
 
+rovers = soup.select("article:nth-of-type(2) > :not(p)")[0]
+
+for parent in rovers.parent:
+	print(parent)
+
+print(rovers)
+
+# films = body.find('div', attrs={'class': 'film'})
+# print(films)
+# for film in films:
+#     title = film.find('h2')
+#     avis = film.find('p')
+#     print(title, avis)
+
 # Afficher le titre de la page
 
 # soup.find('ul')
-ul = soup.find('ul')
+# ul = soup.find('ul')
 
-h2 = soup.find('h2')
+# h2 = soup.find('h2')
 
 # trouver tous les h2
-h2 = soup.find_all('h2')
+# body = soup.find('body')
 
-# Iterrer sur les h2
-for div in h2:
-	print(div.text)
+# trouver tous les h2
+# p = body.find_all('h1', attrs={'id': 'Titre'}, limit=2)
+# print(p)
+
+# mainTitle = soup.find('span', attrs={'class': 'mw-page-title-main'})
+# print(mainTitle.text)
+
+# Creer une liste de film, chaque film aura son titre scrappé sur le document donné,
+# Votre liste de film devra etre une liste de tuple (titre, avis),
+# Vous renseignerez l'avis de chaque film.
+#  Je ne veux que les 5 premiers films de la liste.

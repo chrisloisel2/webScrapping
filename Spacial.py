@@ -68,13 +68,13 @@ print("Exercice 1: Extraction basée sur les Classes et ID")
 space_content = soup.find(id="space-content")
 print(space_content.get_text())
 
-space_highlights = soup.find_all("p", class_="space-highlight")
+space_highlights = soup.find_all("p", attrs={"class": "space-highlight"})
 for highlight in space_highlights:
     print(highlight.get_text())
 
 # Exercice 2: Utilisation de Pseudo-sélecteurs
 print("\nExercice 2: Utilisation de Pseudo-sélecteurs")
-first_child_paragraphs = soup.select("article > p:first-child")
+first_child_paragraphs = soup.select("article > p:first-of-type")
 for paragraph in first_child_paragraphs:
     print(paragraph.get_text())
 

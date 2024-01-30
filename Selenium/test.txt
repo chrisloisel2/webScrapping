@@ -1,0 +1,19 @@
+    Ouvrir la Page et Vérifier le Titre :
+        Lancez le navigateur et ouvrez la page HTML.
+        Vérifiez que le titre de la page est "Exercice Selenium".
+
+    Localisation et Interaction avec les Éléments :
+        Localisez le premier paragraphe par son ID et récupérez son texte.
+        Trouvez tous les éléments <li> de la liste et récupérez le texte de chaque élément. Vérifiez qu'il y a exactement trois éléments.
+        Cliquez sur le lien présent dans le troisième paragraphe.
+
+    Travail avec le Formulaire :
+        Remplissez le champ de formulaire pour le nom (input de type texte) avec un nom de votre choix.
+        Soumettez le formulaire en cliquant sur le bouton "Envoyer".
+
+    Utilisation de Sélecteurs CSS et XPath :
+        Localisez l'élément avec la classe important en utilisant un sélecteur CSS et récupérez son texte.
+        Utilisez XPath pour localiser le footer de la page et récupérez le texte du paragraphe qu'il contient.
+
+    Fermeture Propre :
+        Après avoir exécuté toutes les tâches, assurez-vous de fermer le navigateur proprement.

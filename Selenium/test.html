@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice Selenium</title>
+    <style>
+        .container {
+            padding: 20px;
+        }
+        .important {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="main" class="container">
+        <h1>Page de Test pour Selenium</h1>
+        <p id="first-paragraph">Ceci est le <strong>premier</strong> paragraphe.</p>
+        <p>Ceci est le <span class="important">second</span> paragraphe.</p>
+        <p>Ceci est un paragraphe avec un <a href="https://www.example.com">lien</a>.</p>
+
+        <h2>Liste de tests</h2>
+        <ul>
+            <li class="item">Élément 1</li>
+            <li class="item">Élément 2</li>
+            <li>Élément 3</li>
+        </ul>
+
+        <form action="/submit" method="post">
+            <label for="nameInput">Nom :</label>
+            <input type="text" id="nameInput" name="name">
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>Exemple de footer</p>
+    </footer>
+</body>
+</html>

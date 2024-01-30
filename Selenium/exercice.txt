@@ -1,0 +1,25 @@
+    Ouverture du Site :
+        Ouvrir un navigateur et naviguer vers le site web de "Les Échos" (https://www.lesechos.fr/).
+
+    Recherche sur le Site :
+        Trouver la barre de recherche sur la page d'accueil.
+        Saisir le terme "intelligence artificielle" dans la barre de recherche.
+        Soumettre la recherche.
+
+    Extraction de Données :
+        Une fois la page de résultats de recherche chargée, extraire les titres et les liens des articles relatifs à l'intelligence artificielle.
+        Stocker ces informations dans une structure de données appropriée.
+		article_info = {
+   				 "titre": "",        # Le titre de l'article
+   				 "lien": "",         # Le lien URL vers l'article
+  				 "date": "",         # La date de publication de l'article (si disponible)
+   				 "resume": ""        # Un court résumé ou le début de l'article (si facilement accessible)
+		}
+
+
+    Critères d'Extraction :
+        Assurez-vous que les articles extraits sont pertinents par rapport au terme de recherche "intelligence artificielle".
+        Limitez l'extraction aux 10 premiers articles de la page de résultats.
+
+    Sauvegarde des Résultats :
+        Enregistrer les résultats dans un fichier (par exemple, un fichier CSV) avec des détails appropriés.

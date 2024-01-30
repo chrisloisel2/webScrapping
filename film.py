@@ -1,3 +1,10 @@
+from bs4 import BeautifulSoup
+import requests  # Import manquant pour utiliser requests.get
+
+url2 = "http://127.0.0.1:5500/webScrapping/films.html"
+
+request2 = requests.get(url2)
+html2 = """
 <html>
 <head>
     <title>Liste de films</title>
@@ -34,3 +41,12 @@
 	</div>
 </body>
 </html>
+"""
+soup2 = BeautifulSoup(html2, 'html.parser')
+
+listfilm = []
+
+liste = soup2.find_all('div', limit=5, attrs={"class": "film"})
+for film in liste:
+    lis = film.find('h2')
+    print(lis)

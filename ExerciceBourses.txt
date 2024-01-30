@@ -1,0 +1,24 @@
+Exercice 1 : Extraction de Titre
+
+    Lisez le fichier HTML et créez un objet BeautifulSoup.
+    Extrayez et affichez le titre de la page (contenu de la balise <title>).
+
+Exercice 2 : Extraction de Données de Tableau
+
+    Localisez et extrayez les données du tableau présent dans la section "Marchés Financiers".
+    Stockez ces données dans une structure de données Python (par exemple, une liste de dictionnaires).
+
+Exercice 3 : Navigation dans le Document
+
+    Utilisez la navigation par balises et la recherche de Beautiful Soup pour trouver toutes les sections (<article>).
+    Pour chaque section, extrayez le titre de la section (la balise <h2>) et le premier paragraphe de texte.
+
+Exercice 4 : Manipulation de Listes et Liens
+
+    Trouvez la liste des liens dans la section "Actualités Boursières".
+    Extrayez le texte et l'URL de chaque lien (balise <a>) dans cette liste.
+
+Exercice 5 : Recherche Avancée avec Sélecteurs CSS
+
+    Utilisez les sélecteurs CSS pour extraire toutes les balises <p> qui sont directement dans une balise <article>.
+    Affichez leur contenu textuel.

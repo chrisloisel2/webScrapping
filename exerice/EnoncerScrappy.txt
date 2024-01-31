@@ -1,0 +1,2 @@
+Vous devrez scrapper toutes les balises li, h1, et p des differentes pages web que je vous ait donné,
+en plus vous viendrez recuperer les liens de tous les boutons et des balises a

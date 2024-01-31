@@ -1,0 +1,10 @@
+# Creer une liste de film, chaque film aura son titre scrappé sur le document donné,
+# Votre liste de film devra etre une liste de tuple (titre, avis),
+# Vous renseignerez l'avis de chaque film.
+#  Je ne veux que les 5 premiers films de la liste.
+
+
+# Parcourer l'integraliter des document html que je vous ait donné,
+# Recuperer tout les h1 de chaque page,
+# Recuperer tout les li de chaque page,
+# Recuperer tout les liens de chaque a de chaque page,

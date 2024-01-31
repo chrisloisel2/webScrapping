@@ -1,0 +1,15 @@
+Extraction de données
+    Extraire et afficher le contenu de la section ayant l'ID space-content.
+    Récupérer et afficher le texte de toutes les balises <p> qui ont la classe space-highlight.
+
+Utilisation de Pseudo-sélecteurs
+    Sélectionnez et affichez le premier paragraphe (<p>) de chaque article (<article>).
+    Extrayez et affichez tous les éléments impairs de la liste #mission-list.
+
+Sélection par Négation
+    Récupérez et affichez le contenu de toutes les balises <div> qui n'ont pas la classe space-highlight.
+
+Sélection Combinée
+    Utilisez une combinaison de sélecteurs pour extraire le texte de chaque titre <h2> dans les articles.
+
+Créez et utilisez des sélecteurs complexes pour extraire des données spécifiques, comme le deuxième paragraphe dans le premier article ou le dernier élément de la liste #mission-list.

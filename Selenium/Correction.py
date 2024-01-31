@@ -46,7 +46,7 @@ try:
 
     search_box.send_keys(Keys.RETURN)
 
-    WebDriverWait(driver, 10).until(
+    result = WebDriverWait(driver, 10).until(
         EC.presence_of_element_located((By.CSS_SELECTOR, "article"))
     )
     articles = driver.find_elements(By.CSS_SELECTOR, "article")

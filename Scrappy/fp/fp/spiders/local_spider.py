@@ -5,7 +5,7 @@ from fp.items import FpItem
 class LocalSpiderSpider(scrapy.Spider):
     name = "local_spider"
     allowed_domains = ["127.0.0.1:5500"]
-    start_urls = ['http://127.0.0.1:5500/test.html']
+    start_urls = ['http://127.0.0.1:5500/exerice/films.html']
 
     def parse(self, response):
         item = FpItem()

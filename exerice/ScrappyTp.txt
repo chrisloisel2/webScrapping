@@ -1,0 +1,20 @@
+A l'aide de l'outil que vous souhaiter vous devez recuperer une liste d'url vers tous les films
+des quatres premières pages de ce site : https://www.allocine.fr/film/meilleurs/?page=2
+
+Vous utiliserez Scrapy pour réaliser des requêtes HTTP et récupérer le contenu HTML des pages.
+
+Vous devrez ensuite extraire les informations suivantes pour chaque film :
+
+	Titre du film
+	Année de sortie
+	Genre
+	Réalisateur
+	Durée
+	Note moyenne des spectateurs
+
+Création du Spider Scrapy :
+
+    Développez un spider Scrapy pour extraire les données mentionnées ci-dessus.
+    Gérez la pagination pour récupérer les informations de plusieurs pages, si nécessaire.
+
+Le rendu de votre travail sera un fichier csv contenant les informations extraites pour chaque film.

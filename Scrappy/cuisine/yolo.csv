@@ -1,0 +1,4 @@
+titre,ingredients,preparation
+Jus de kaki,,
+CSSlis,CSSlistxt,CSSlisclass,XPATHlis,XPATHlistxt,XPATHlisclass
+"[<Selector query=""descendant-or-self::h2[(@class and contains(concat(' ', normalize-space(@class), ' '), ' borderSection_title ')) and (@class and contains(concat(' ', normalize-space(@class), ' '), ' m-0 '))]"" data='<h2 class=""borderSection_title m-0"">I...'>]",Ingrédients :,borderSection_title m-0,"[<Selector query=""//h2[@class='borderSection_title m-0']"" data='<h2 class=""borderSection_title m-0"">I...'>]",Ingrédients :,borderSection_title m-0

@@ -1,0 +1,44 @@
+Objectif :
+Ce travail pratique a pour but de vous initier à l'utilisation de Scrapy, un framework de crawling web puissant pour Python, afin de collecter des données structurées à partir de pages web. Vous allez extraire des informations sur des recettes de cuisine à partir de plusieurs pages du site https://www.cuisineaz.com. Les recettes ciblées incluront la pâte à crêpes traditionnelle, l'appareil à quiche, le nappage au chocolat, la pâte brisée sans gluten, et la pâte à tempura. Le résultat final sera un script Scrapy qui parcourt ces pages et enregistre les informations des recettes dans un fichier JSON.
+
+Instructions :
+
+    Préparation de l'environnement de travail :
+        Assurez-vous que Python est installé sur votre machine.
+        Installez Scrapy en utilisant pip :
+
+    pip install scrapy
+
+Création d'un projet Scrapy :
+
+    Lancez la commande suivante pour créer un nouveau projet Scrapy :
+
+    scrapy startproject recettes_cuisine
+
+    Accédez au dossier du projet créé.
+
+Définition de l'item :
+
+    Définissez un item Scrapy dans le fichier items.py qui représentera une recette. Cet item inclura des champs pour le titre de la recette, les ingrédients, les étapes de préparation, et le temps de préparation.
+
+Création d'un spider :
+
+    Créez un spider Scrapy dans le dossier spiders de votre projet. Ce spider sera chargé de parcourir les pages des recettes fournies.
+    Nommez votre spider de manière appropriée, par exemple recettes_spider.
+    Dans le spider, définissez les URLs de départ pour inclure les pages des recettes listées dans l'objectif.
+    Utilisez les sélecteurs CSS ou XPath pour extraire les informations de chaque recette (titre, ingrédients, étapes de préparation, temps de préparation) et les stocker dans des items Scrapy.
+
+Extraction des données :
+
+    Configurez votre spider pour parcourir chaque page de recette et extraire les informations requises en utilisant les sélecteurs que vous avez définis.
+    Assurez-vous de gérer correctement les cas où certaines informations pourraient être manquantes ou formatées différemment.
+
+Enregistrement des données :
+
+    Modifiez le fichier settings.py de votre projet pour définir le format de sortie (par exemple, JSON) et le nom du fichier de sortie où les données extraites seront enregistrées.
+    Lancez votre spider pour commencer la collecte des données. Les données extraites devraient être sauvegardées automatiquement dans le fichier de sortie spécifié.
+
+Consignes de soumission :
+
+    Soumettez le code de votre spider ainsi que le fichier JSON contenant les données extraites.
+    Rédigez un rapport bref expliquant votre démarche, y compris comment vous avez sélectionné les sélecteurs pour extraire les données, et toute difficulté rencontrée pendant le TP.

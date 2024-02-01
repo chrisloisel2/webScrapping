@@ -26,7 +26,7 @@ try:
 
     button = WebDriverWait(driver, 10).until(
         EC.presence_of_element_located(
-            (By.CSS_SELECTOR, 'button[id="didomi-notice-agree-button"]'))
+            (By.ID, 'button[id="didomi-notice-agree-button"]'))
     )
     button.click()
 
@@ -42,6 +42,9 @@ try:
             (By.CSS_SELECTOR, "input")
         )
     )
+    # Recuperer les attributs d'un élément
+    # print(search_box.get_attribute("aria-label"))
+    search_box.get_attribute("aria-label")
     search_box.send_keys("intelligence artificielle")
 
     search_box.send_keys(Keys.RETURN)

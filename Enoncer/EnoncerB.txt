@@ -1,0 +1,24 @@
+Exploration du site AccuWeather :
+
+    Visitez https://www.accuweather.com/ et recherchez les villes de Paris, Bordeaux, Marseille, et Lille pour vous familiariser avec les informations météorologiques disponibles.
+    Notez les éléments HTML qui contiennent les données météorologiques que vous souhaitez extraire.
+
+	Vous viendrez rechercher les informations suivantes :
+		- La température actuelle
+		- Les conditions météorologiques actuelles
+		- Les perspectives pour les prochains jours
+
+Automatisation de la navigation :
+
+    Utilisez Selenium pour automatiser le processus de navigation vers la page météo de chacune des quatre villes.
+    Assurez-vous que votre script peut rechercher la ville et accéder à la page des résultats pertinente.
+
+Extraction des données météorologiques :
+
+    Pour chaque ville, extrayez les informations météorologiques pertinentes telles que la température actuelle, les conditions météorologiques (ensoleillé, pluvieux, etc.), et les prévisions pour les prochains jours.
+    Structurez ces données de manière à ce qu'elles soient prêtes à être enregistrées dans un fichier CSV.
+
+Création du fichier CSV :
+
+    Utilisez pandas ou le module CSV de Python pour écrire les données extraites dans un fichier CSV.
+    Nommez correctement les colonnes et assurez-vous que les données pour chaque ville sont bien organisées et faciles à lire.

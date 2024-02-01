@@ -9,9 +9,6 @@ import pymongo
 from itemadapter import ItemAdapter
 
 
-import pymongo
-
-
 class MongoDBPipeline(object):
     collection_name = 'scrapy_items'
 

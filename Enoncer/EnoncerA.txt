@@ -1,0 +1,26 @@
+Exploration du site :
+
+    Visitez le site https://apolloarchive.com/ pour vous familiariser avec sa structure et le type d'informations disponibles.
+    Identifiez les sections qui contiennent des informations sur les équipages des missions Apollo et les archives des missions.
+
+Récupération des informations sur les équipages :
+
+    Utilisez BeautifulSoup pour parser le contenu HTML de la page qui liste les équipages des missions Apollo.
+    Extrayez les informations suivantes pour chaque mission : Nom de la mission, noms des membres d'équipage, rôle dans la mission (par exemple, commandant, pilote du module de commande, etc.).
+
+Récupération des informations sur les archives :
+
+    Identifiez les pages contenant des archives (photos, vidéos, audio) des missions Apollo.
+    Pour chaque archive, extrayez les informations pertinentes comme le titre de l'archive, la mission associée, et le type d'archive (photo, vidéo, audio).
+
+Création du fichier CSV :
+
+    Utilisez la bibliothèque pandas ou le module CSV de Python pour créer un fichier CSV.
+    Structurez votre fichier CSV avec les en-têtes appropriés pour les informations récupérées (par exemple, Mission, Membres d'équipage, Rôles, Titre de l'archive, Type d'archive, etc.).
+    Assurez-vous que le fichier CSV est bien formaté et facile à lire.
+
+Consignes de soumission :
+
+    Votre script Python doit être commenté pour expliquer le rôle des différentes parties du code.
+    Soumettez votre script Python accompagné du fichier CSV généré.
+    Incluez un court rapport expliquant votre démarche, les difficultés rencontrées et comment vous les avez surmontées.

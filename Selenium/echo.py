@@ -14,10 +14,9 @@ driver = webdriver.Firefox()
 driver.get('http://127.0.0.1:5500/test.html')
 time.sleep(2)
 
-input = driver.find_element(
-    By.CSS_SELECTOR, 'input')
+input = driver.find_element(By.XPATH, '//input[@type="text"]')
 
 input.send_keys('christopher')
 
-button = driver.find_element(By.CSS_SELECTOR, 'button')
+button = driver.find_element(By.CLASS_NAME, 'btn')
 button.click()

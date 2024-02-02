@@ -1,9 +1,6 @@
 from bs4 import BeautifulSoup
 import requests  # Import manquant pour utiliser requests.get
 
-url2 = "http://127.0.0.1:5500/webScrapping/films.html"
-
-request2 = requests.get(url2)
 html2 = """
 <html>
 <head>
@@ -21,7 +18,7 @@ html2 = """
     </div>
     <div class="film">
         <h2>Inception</h2>
-        <p>Avis: Un film captivant et complexe.</p>
+        <p id='main'>Avis: Un film captivant et complexe.</p>
     </div>
     <div class="film">
         <h2>Intouchables</h2>
@@ -48,5 +45,7 @@ listfilm = []
 
 liste = soup2.find_all('div', limit=5, attrs={"class": "film"})
 for film in liste:
-    lis = film.find('h2')
-    print(lis)
+    # recupere le titre de chaque film
+    titre = film.select('p', id='main')[0].text
+
+    print(titre)

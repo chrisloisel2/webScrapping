@@ -1,0 +1,17 @@
+Objectif du TP:
+
+Développer un script de web scraping qui navigue sur le site "Books to Scrape" et extrait les informations détaillées de chaque livre disponible.
+Le script doit être capable de parcourir toutes les pages du site et de récupérer les informations suivantes pour chaque livre :
+
+    Titre du livre
+    Prix
+    Disponibilité en stock
+    Catégorie
+    Note (si disponible)
+    Description du produit (si disponible)
+    URL de l'image de couverture
+
+Sauvegarder les données extraites dans un fichier CSV séparé par catégorie.
+
+
+
